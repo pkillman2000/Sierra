@@ -1,0 +1,82 @@
+# Unreal Engine 5.3 .gitignore
+
+# Build and Temporary Files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+.idea/
+*.VC.db
+*.VC.opendb
+*.sdf
+*.suo
+*.user
+*.bak
+*.log
+*.obj
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+*.opendb
+*.layout
+*.build
+*.modules
+*.generated.h
+*.generated.cpp
+*.txt
+*.assetregistry.bin
+*.uprojectdirs
+*.target
+*.module
+
+# Visual Studio / IDE Files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.natvis
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains Rider Files
+.idea/
+*.sln.DotSettings
+*.userprefs
+
+# macOS Specific
+.DS_Store
+
+# Linux Specific
+*.o
+*.so
+*.a
+
+# Crash Dumps
+CrashReportClient/
+
+# Collections (local to developer)
+Collections/
+
+# Developers (local to developer)
+Developers/
+
+# Asset Source Files (if using Git LFS for these)
+# If you are using Git LFS for large binary assets, you might
+# want to ignore the raw source files and only track the LFS pointers.
+# This section is commented out as it depends on your LFS setup.
+# *.uasset
+# *.umap
+# *.blend
+# *.fbx
+# *.png
+# *.tga
+# *.psd
+# *.wav
+# *.ogg
+# *.mp3
